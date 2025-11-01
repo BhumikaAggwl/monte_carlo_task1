@@ -77,14 +77,15 @@ monte-carlo-gbm-simulation/
 git clone https://github.com/<your-username>/monte-carlo-gbm-simulation.git
 cd monte-carlo-gbm-simulation
 pip install -r requirements.txt
-
+```
 ▶️ How to Run
 # Run from Jupyter Notebook
+```bash
 jupyter notebook notebooks/monte_carlo_gbm.ipynb
-
+```
 
 or directly in Python:
-
+```bash
 from src.gbm_simulation import simulate_gbm_paths
 from src.stats_analysis import compute_statistics, theoretical_values, compare_theoretical_vs_simulated
 from src.visualization import plot_price_paths, plot_final_price_distribution
@@ -92,19 +93,18 @@ from src.visualization import plot_price_paths, plot_final_price_distribution
 t, paths = simulate_gbm_paths(100, 0.08, 0.20, 1, 1/252, 1000)
 sim_stats = compute_statistics(paths)
 theo_stats = theoretical_values(100, 0.08, 0.20, 1)
-
-📊 Outputs
+```
+###📊 Outputs
 File	Description
 gbm_price_paths.png	Sample of 10 simulated price paths
 final_price_histogram.png	Distribution of final simulated prices
 comparison_table.png	Simulated vs theoretical mean/std comparison
-📈 Example Visuals
 
+###📈 Example Visuals
 Sample GBM Price Paths
-
 Final Price Distribution
 
-🧠 Insights
+###🧠 Insights
 
 GBM produces log-normally distributed prices and normally distributed returns.
 
@@ -112,7 +112,7 @@ Monte Carlo estimates of mean and volatility closely match theoretical values (w
 
 Increasing the number of paths improves convergence to analytical expectations.
 
-📚 References
+###📚 References
 
 QuantInsti: Monte Carlo Simulation Tutorial
 
