@@ -78,7 +78,7 @@ git clone https://github.com/<your-username>/monte-carlo-gbm-simulation.git
 cd monte-carlo-gbm-simulation
 pip install -r requirements.txt
 ```
-▶️ How to Run
+### ▶️ How to Run
 # Run from Jupyter Notebook
 ```bash
 jupyter notebook notebooks/monte_carlo_gbm.ipynb
@@ -94,13 +94,13 @@ t, paths = simulate_gbm_paths(100, 0.08, 0.20, 1, 1/252, 1000)
 sim_stats = compute_statistics(paths)
 theo_stats = theoretical_values(100, 0.08, 0.20, 1)
 ```
-###📊 Outputs
+### 📊 Outputs
 File	Description
 gbm_price_paths.png	Sample of 10 simulated price paths
 final_price_histogram.png	Distribution of final simulated prices
 comparison_table.png	Simulated vs theoretical mean/std comparison
 
-###📈 Example Visuals
+### 📈 Example Visuals
 Sample GBM Price Paths
 Final Price Distribution
 
