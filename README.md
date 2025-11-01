@@ -100,11 +100,8 @@ gbm_price_paths.png	Sample of 10 simulated price paths
 final_price_histogram.png	Distribution of final simulated prices
 comparison_table.png	Simulated vs theoretical mean/std comparison
 
-### 📈 Example Visuals
-Sample GBM Price Paths
-Final Price Distribution
 
-###🧠 Insights
+###  Insights
 
 GBM produces log-normally distributed prices and normally distributed returns.
 
@@ -112,7 +109,8 @@ Monte Carlo estimates of mean and volatility closely match theoretical values (w
 
 Increasing the number of paths improves convergence to analytical expectations.
 
-###📚 References
+### References
+
 
 QuantInsti: Monte Carlo Simulation Tutorial
 
