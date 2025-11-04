@@ -43,7 +43,7 @@ where \( Z \sim N(0,1) \).
 ---
 
 ### 🧩 Project Structure
-
+```bash
 
 monte-carlo-gbm-simulation/
 │
@@ -67,7 +67,7 @@ monte-carlo-gbm-simulation/
 ├── README.md
 ├── report.pdf
 └── requirements.txt
-
+```
 
 ---
 
